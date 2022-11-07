@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Routes, Route, Link } from "react-router-dom";
 import Login from '../Pages/auth/Login';
 import SignUp from '../Pages/auth/SignUp';
+import Memoize from '../Pages/Memoize ';
 
 const AppRoutes = () => {
   return (
@@ -12,6 +13,7 @@ const AppRoutes = () => {
         <Routes>
           <Route path="/" element={<Login/>} />
           <Route path="signUp" element={<SignUp/>} />
+          <Route path="memoize" element={<Memoize/>} />
         </Routes>
       </BrowserRouter>
     </div>
